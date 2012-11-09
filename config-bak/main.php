@@ -8,6 +8,8 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'工作日报系统',
+	'theme'=>'default',
+	'language'=>'zh_cn',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -54,7 +56,7 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=worklog',
 			'emulatePrepare' => true,
-			'username' => 'test',
+			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
 		),
